@@ -26,7 +26,6 @@ SECRET_KEY = os.getenv('SECRET_KEY')
 
 ALLOWED_HOSTS = [
     '127.0.0.1',
-    'Vitaly3278.pythonanywhere.com',
 ]
 
 
@@ -41,8 +40,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'hw1',
     'hw2',
-    'hw4',
-    'hw5',
 ]
 
 MIDDLEWARE = [
